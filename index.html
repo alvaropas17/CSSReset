@@ -4,13 +4,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Primero vamos importando las cosas generales -->
     <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./general.css">
+
+    <!-- Luego van las reglas específicas para cada sitio -->
+    <link rel="stylesheet" href="./bodyhome.css">
     <link rel="stylesheet" href="./styles.css">
+
+    <!-- Luego vienen las librerías externas como Tailwind y otras -->
     <title>Inicio</title>
 </head>
 
 <body>
-
+    <header class="header">
+        <div class="header__logo">MiLogo</div>
+        <nav class="header__nav">
+            <ul class="header__menu">
+                <li class="header__menu-item"><a href="#" class="header__menu-link">Inicio</a></li>
+                <li class="header__menu-item"><a href="#" class="header__menu-link">Servicios</a></li>
+                <li class="header__menu-item"><a href="#" class="header__menu-link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="movie-list">
+            <h2>Mis Películas Favoritas</h2>
+            <ul>
+                <li class="movie-item">El Padrino</li>
+                <li class="movie-item">El Señor de los Anillos</li>
+                <li class="movie-item">Inception</li>
+            </ul>
+        </section>
+    </main>
 </body>
 <script src="./scripts.js"></script>
 

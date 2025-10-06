@@ -1,0 +1,29 @@
+/* Estilos para la lista de películas */
+.movie-list {
+    margin: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.movie-list h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.movie-item {
+    font-size: 1.2rem;
+    color: #555;
+    margin: 8px 0;
+    padding: 5px;
+    list-style-type: disc;
+}
+
+.movie-item:hover {
+    color: #000;
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
